@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestorInventario.DAL\GestorInventario.DAL.csproj" />
+    <ProjectReference Include="..\GestorInventario.DTO\GestorInventario.DTO.csproj" />
+    <ProjectReference Include="..\GestorInventario.Model\GestorInventario.Model.csproj" />
+    <ProjectReference Include="..\GestorInventario.Utility\GestorInventario.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
